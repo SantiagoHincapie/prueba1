@@ -24,7 +24,14 @@ public class holaMundo
         numero=Integer.parseInt(JOptionPane.showInputDialog("Digite el numeo de su cuenta"));
         letra=JOptionPane.showInputDialog("Dijite una letra").charAt(0);
         decimal=Double.parseDouble(JOptionPane.showInputDialog("Digite un decimal"));
-        
+
+
+        //ahora mostraremos los datos recolectados en los anteriores comandos
+
+        JOptionPane.showMessageDialog(null,"La cadena es"+cadena);
+        JOptionPane.showMessageDialog(null,"El numero entero es"+numero);
+        JOptionPane.showMessageDialog(null,"La letra es "+letra);
+        JOptionPane.showMessageDialog(null,"El decimal es "+decimal);
 
     }
 }
