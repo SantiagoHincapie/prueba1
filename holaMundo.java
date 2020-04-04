@@ -14,7 +14,7 @@ public class holaMundo
         //las constantes se declaran con la palabra final antes de la declaracion del tipo de dato ej:final int=10;
         //JOptionPane Es la entrada y salida de datos pero con ventanas emergentes
 
-        Scanner lector=new Scanner(System.in);
+        Scanner lector=new Scanner(System.in);//Es para la entrada de datos
         String cadena;
         int numero;
         char letra;
