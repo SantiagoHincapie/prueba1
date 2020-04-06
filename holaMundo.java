@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.util.Scanner;
 
+
 public class holaMundo
 {
     public static void main(String[] args)
@@ -18,7 +19,7 @@ public class holaMundo
         String cadena;
         int numero;
         char letra;
-        double decimal;
+        double decimal,raiz;
 
         cadena= JOptionPane.showInputDialog("Digite su nombre:");
         numero=Integer.parseInt(JOptionPane.showInputDialog("Digite el numeo de su cuenta"));
@@ -32,6 +33,13 @@ public class holaMundo
         JOptionPane.showMessageDialog(null,"El numero entero es"+numero);
         JOptionPane.showMessageDialog(null,"La letra es "+letra);
         JOptionPane.showMessageDialog(null,"El decimal es "+decimal);
+
+        //clase de clase math
+        raiz=Math.sqrt(9);//el Math.sqr es para usar los valores matematicos y el .sqr es para la raiz
+        
+
+
+
 
     }
 }
