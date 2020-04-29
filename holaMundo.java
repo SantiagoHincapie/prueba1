@@ -24,7 +24,7 @@ public class holaMundo
         cadena= JOptionPane.showInputDialog("Digite su nombre:");
         numero=Integer.parseInt(JOptionPane.showInputDialog("Digite el numeo de su cuenta"));
         letra=JOptionPane.showInputDialog("Dijite una letra").charAt(0);
-        decimal=Double.parseDouble(JOptionPane.showInputDialog("Digite un decimal"));
+        decimal=Double.parseDouble(JOptionPane.showInputDialog("Digite un fofof"));
 
 
         //ahora mostraremos los datos recolectados en los anteriores comandos
